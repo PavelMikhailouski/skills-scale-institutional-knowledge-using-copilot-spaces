@@ -17,11 +17,12 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Unit tests for new logic (owned by Developers)
+- Integration tests where applicable (Developers + QA Engineer)
+- End-to-end smoke tests for critical flows before release (QA Engineer)
+- UX review of implemented features against design specs (UX Designer)
+- Security scanning in CI (DevOps Engineer maintains pipelines)
+- Manual QA for feature acceptance when needed (QA Engineer signs off)
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +36,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests and lint (DevOps Engineer)
+- [ ] UX designs available and linked from relevant issues before development starts
+- [ ] QA test plan in place and test cases linked to backlog items
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly

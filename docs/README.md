@@ -12,7 +12,7 @@ OctoAcme delivers cross-functional projects with a focus on customer value, iter
 - **Risks & Communication** – Maintain a Risk Register, escalate blockers early, and keep stakeholders informed through regular updates.
 - **Release & Deployment** – Follow a deployment checklist, verify functionality in production, and communicate the release to stakeholders.
 - **Retrospectives & Continuous Improvement** – Capture learnings after each iteration or release and feed action items back into the next cycle.
-- **Roles & Personas** – Developers, Product Managers, and Project Managers each have clearly defined responsibilities and communication norms.
+- **Roles & Personas** – Developers, Product Managers, Project Managers, UX Designers, QA Engineers, DevOps Engineers, and Business Analysts each have clearly defined responsibilities and communication norms.
 
 Clear ownership, data-informed decisions, and psychological safety are the guiding principles that cut across every phase.
 
@@ -27,7 +27,8 @@ Clear ownership, data-informed decisions, and psychological safety are the guidi
 | [Risks & Communication](./octoacme-risks-and-communication.md) | Risk Register, escalation paths, and stakeholder communication cadence |
 | [Release & Deployment](./octoacme-release-and-deployment.md) | Deployment checklist, release verification, and stakeholder announcements |
 | [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) | Retrospective formats, action item tracking, and improvement loops |
-| [Roles & Personas](./octoacme-roles-and-personas.md) | Responsibilities and communication norms for Developers, PdMs, and PMs |
+| [Roles & Personas](./octoacme-roles-and-personas.md) | Responsibilities and communication norms for all project roles |
+| [Cross-Functional Handoff Checklist](./octoacme-cross-functional-handoff-checklist.md) | Step-by-step handoff checklists between roles across all project phases |
 
 ## Maintainer Note
 
