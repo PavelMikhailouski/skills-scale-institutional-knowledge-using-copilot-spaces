@@ -21,6 +21,7 @@ Maintain a simple table with:
 
 ## Stakeholder Communication
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- Assign communication ownership per role: PM owns status reporting; PdM owns roadmap updates; BA owns requirements change notifications
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
 
@@ -39,4 +40,7 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
+- QA-blocking issues: QA Engineer escalates to PM for triage and priority decision
+- Infrastructure/pipeline blockers: DevOps Engineer escalates to PM
+- Requirements conflicts: BA escalates to PdM and PM for resolution
 - For security incidents, follow the security incident runbook and notify Security on-call
